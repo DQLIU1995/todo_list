@@ -6,10 +6,10 @@ import './App.css';
 
 export default function App() {
   const todosData = [
-    { id: '001', name: '吃饭', done: true },
-    { id: '002', name: '睡觉', done: true },
-    { id: '003', name: '打代码', done: false },
-    { id: '004', name: '逛街', done: false },
+    { id: '001', name: 'sleep', done: true },
+    { id: '002', name: 'eat', done: true },
+    { id: '003', name: 'coding', done: false },
+    { id: '004', name: 'eat again', done: false },
   ];
 
   const [todos, setTodo] = React.useState(todosData);
